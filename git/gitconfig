@@ -1,6 +1,6 @@
 [user]
-  name = Joao Vortmann
-  email = jvortmann@gmail.com
+  name = Fernando Freire
+  email = ffreire@thoughtworks.com
 
 [color]
   status = auto
@@ -56,6 +56,7 @@
   br = branch
   px = push
   pl = pull
+  pr = pull --rebase
   r = remote
   unstage = reset HEAD --
   this = !git init && git add . && git commit -m \"Initial commit.\"
