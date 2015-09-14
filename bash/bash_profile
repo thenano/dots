@@ -10,6 +10,9 @@ source "$HOME/.dots/bash/conf/general"
 #source rbenv configuration
 source "$HOME/.dots/bash/conf/rbenv"
 
+#source nvm configuration
+source "$HOME/.dots/bash/conf/nvm"
+
 #source the configuration of the path
 source "$HOME/.dots/bash/conf/path"
 

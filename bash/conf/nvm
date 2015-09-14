@@ -1,0 +1,2 @@
+# this initializes nvm
+if which nvm > /dev/null; then source $(brew --prefix nvm)/nvm.sh; fi
