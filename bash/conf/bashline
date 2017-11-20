@@ -2,6 +2,10 @@
 source "$HOME/.dots/git/git-prompt.sh"
 
 # set up the terminal format
+GIT_PS1_SHOWUNTRACKEDFILES="auto" ;
+GIT_PS1_SHOWCOLORHINTS="auto" ;
+GIT_PS1_SHOWUPSTREAM="auto" ;
+GIT_PS1_SHOWDIRTYSTATE="auto" ;
 USER_AND_HOST_='\[\e[0;34m\]' ;
 PATH_='\[\e[;32m\]' ;
 GIT_='\[\e[;31m\]' ;

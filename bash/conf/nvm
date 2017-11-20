@@ -1,2 +1,2 @@
 # this initializes nvm
-if which nvm > /dev/null; then source $(brew --prefix nvm)/nvm.sh; fi
+if [ -f $(brew --prefix nvm)/nvm.sh ]; then export NVM_DIR="$HOME/.nvm"; . "$(brew --prefix nvm)/nvm.sh"; fi

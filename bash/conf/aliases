@@ -47,11 +47,13 @@ alias m="md; mt"
 alias s="rake db:seed"
 
 # alias to projects folder
-alias gp="cd ~/prj"
+alias gp="cd ~/dev"
 
 # alias to current projects folder
-alias gc="cd ~/prj/current"
+alias gc="cd ~/dev/current"
 alias pg_start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg_stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
 alias serve_this="python -m SimpleHTTPServer"
+
+alias internet="ping 8.8.8.8"
