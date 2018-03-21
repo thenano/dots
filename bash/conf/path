@@ -10,3 +10,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # add local binstubs to the beginning of the path
 export PATH="vendor/bundle/binstubs:$PATH"
 
+# add pyenv
+export PATH="$HOME/.pyenv/shims:$PATH"

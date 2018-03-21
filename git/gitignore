@@ -6,4 +6,7 @@ tags
 gem.tags
 !tags/
 *.sass-cache
+*.iml
+*.ipr
+*.iws
 vendor/bundle
