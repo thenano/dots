@@ -9,3 +9,6 @@ source "$HOME/.dots/bash/conf/colors"
 
 #source the bashline configuration
 source "$HOME/.dots/bash/conf/bashline"
+
+#configure catalina build path
+export SDKROOT="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
